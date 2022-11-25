@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './Sidebar.css';
 import { HashLink as Link } from 'react-router-hash-link';
 import logo from '../images/sam.jpg'
@@ -14,8 +14,8 @@ import logo from '../images/sam.jpg'
                 <div style={{ color: 'black', fontWeight: 'bold' }} className=""> # coding </div>
                 <h1><Link smooth to="/#start" className="h1_links">{props.name}</Link></h1>
 
-                <img src={logo} />
-                <p style={{ color: 'black', fontWeight: 'bold' }} className="gmail"><a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJftvBffjPmxWxvfHWRHWnhTbpQgPxBxvkcnPpFpFqbhrXMCHXSJTsCXCVLsQzgRcVLpnPL" rel="opener noreferrer" target="_blank" className="fa fa-envelope"></a> alisarfraz900@gmail.com </p>
+                <img src={logo} alt='img'/>
+                <p style={{ color: 'black', fontWeight: 'bold' }} className="gmail"><a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJftvBffjPmxWxvfHWRHWnhTbpQgPxBxvkcnPpFpFqbhrXMCHXSJTsCXCVLsQzgRcVLpnPL" rel="opener noreferrer" className="fa fa-envelope"> </a> alisarfraz900@gmail.com </p>
 
                 <ul className="sidebar-nav">
                     <li className="sidebar-nav-items"><Link smooth to="/#about" className="links">About</Link></li>
@@ -26,12 +26,12 @@ import logo from '../images/sam.jpg'
 
                 <div className="flip-card-back">
                     <ul className="sidebar-nav">
-                        <li className="sidebar-nav-icons"> <a href="#" rel="opener noreferrer"  className="fa fas fa-github fa-lg"></a></li>
-                        <li className="sidebar-nav-icons"><a href="#" rel="opener noreferrer"  className="fa fas fa-linkedin fa-lg"></a></li>
-                        <li className="sidebar-nav-icons"> <a href="#" rel="opener noreferrer"  className="fa fas fa-twitter fa-lg"></a></li>
-                        <li className="sidebar-nav-icons"> <a href="#" rel="opener noreferrer"  className="fa fas fa-instagram fa-lg"></a></li>
-                        <li className="sidebar-nav-icons"> <a href="#" rel="opener noreferrer"  className="fa fas fa-envelope fa-lg"></a></li>
-                        <li className="sidebar-nav-icons"> <a href="#" rel="opener noreferrer"  className="fa fas fa-facebook fa-lg"></a></li>
+                        <li className="sidebar-nav-icons"> <a href="https://github.com/" rel="opener noreferrer"  className="fa fas fa-github fa-lg"> </a></li>
+                        <li className="sidebar-nav-icons"><a href="https://github.com/" rel="opener noreferrer"  className="fa fas fa-linkedin fa-lg"> </a></li>
+                        <li className="sidebar-nav-icons"> <a href="https://github.com/" rel="opener noreferrer"  className="fa fas fa-twitter fa-lg"> </a></li>
+                        <li className="sidebar-nav-icons"> <a href="https://github.com/" rel="opener noreferrer"  className="fa fas fa-instagram fa-lg"> </a></li>
+                        <li className="sidebar-nav-icons"> <a href="https://github.com/" rel="opener noreferrer"  className="fa fas fa-envelope fa-lg"> </a></li>
+                        <li className="sidebar-nav-icons"> <a href="https://github.com/" rel="opener noreferrer"  className="fa fas fa-facebook fa-lg"> </a></li>
                     </ul>
                 </div>
 

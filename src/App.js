@@ -1,31 +1,24 @@
-import React, { Component, useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import './App.css';
 import { BrowserRouter as Router } from 'react-router-dom';
 import Sidebar from './components/sidebar/Sidebar';
 import About from './components/about/About';
 import Education from './components/Education/Education';
 import Interest from './components/skills/Interest'
-import {db , auth} from './firebase';
+import {db } from './firebase';
 
 const App = ()=> {
 
-   const [student,setStudent] = useState([])
-  //  const [name, setName] = useState(null)
   const [data, setData] = useState([])
    useEffect(()=>{
-    console.log("test")
-
     db.collection('mydata')
     .get()
     .then(snapshot => {
       snapshot.forEach(doc=>{
         const port = doc.data()
-        // name = data.name;
         setData(port)
        
       })
-      // console.log(student)
-      // console.log(snapshot)
     })
     .catch(error => console.log(error))
 

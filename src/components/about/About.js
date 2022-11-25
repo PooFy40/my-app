@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import classes from './About.module.css';
 import "animate.css/animate.min.css";
 
