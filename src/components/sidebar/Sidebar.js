@@ -15,7 +15,7 @@ import logo from '../images/sam.jpg'
                 <h1><Link smooth to="/#start" className="h1_links">{props.name}</Link></h1>
 
                 <img src={logo} alt='img'/>
-                <p style={{ color: 'black', fontWeight: 'bold' }} className="gmail"><a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJftvBffjPmxWxvfHWRHWnhTbpQgPxBxvkcnPpFpFqbhrXMCHXSJTsCXCVLsQzgRcVLpnPL" rel="opener noreferrer" className="fa fa-envelope"> </a> alisarfraz900@gmail.com </p>
+                <p style={{ color: 'black', fontWeight: 'bold' }} className="gmail"><a href="google.com" rel="opener noreferrer" className="fa fa-envelope"> </a> alisarfraz900@gmail.com </p>
 
                 <ul className="sidebar-nav">
                     <li className="sidebar-nav-items"><Link smooth to="/#about" className="links">About</Link></li>
