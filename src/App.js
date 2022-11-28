@@ -16,7 +16,6 @@ const App = ()=> {
     .then(snapshot => {
       snapshot.forEach(doc=>{
         const port = doc.data()
-        console.log('test')
         setData(port)
        
       })
