@@ -1,6 +1,6 @@
 import React from 'react'
 import classes from './About.module.css';
-import "animate.css/animate.min.css";
+// import "animate.css/animate.min.css";
 
 // class About extends Component {
     const About = (props)=> {
